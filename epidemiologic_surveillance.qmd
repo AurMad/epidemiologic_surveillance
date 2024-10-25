@@ -1,0 +1,339 @@
+---
+title: "Epidemiologic surveillance"
+author: "Aurélien Madouasse"
+date: "2024-10-31"
+format: 
+  revealjs:
+    incremental: true
+    slide-number: c/t
+    show-slide-number: all
+    logo: figs/logos_Oniris_Inrae.png
+    theme: [simple, style.scss]
+---
+
+## What is surveillance?
+
+- **Epidemiologic surveillance** is the ongoing and systematic collection, analysis, and interpretation of health data in the process of describing and monitoring a health event. This information is used for planning, implementing, and evaluating public health interventions and programs. Surveillance data are used both to determine the need for public health action and to assess the effectiveness of programs. [(Klaucke et al., 1988)](https://www.cdc.gov/mmwr/preview/mmwrhtml/00001769.htm)
+
+- **Animal health surveillance**: The systematic (continuous or repeated) measurement, collection, collation, analysis, interpretation, and timely dissemination of animal-health and -welfare data from defined populations. These data are essential for describing health-hazard occurrence and to contribute to the planning, implementation, and evaluation of risk-mitigation actions. [(Hoinville et al., 2012)](https://pubmed.ncbi.nlm.nih.gov/23906392/)
+
+
+## Motivations to implement a surveillance programme
+
+- **Public health**: Monitor a condition or an epidemic for decision making ([surveillance of AMR by the WHO](https://www.who.int/initiatives/glass), [surveillance of COVID-19](https://www.cdc.gov/covid/php/surveillance/index.html))
+- **Mandatory surveillance**: e.g., listed animal diseases (see EU categorisation [here](https://food.ec.europa.eu/system/files/2021-07/ah_ahl_btsf_training_20210621_1-3.pdf))
+- **Industry-led surveillance of animal diseases**: 
+  - To mitigate/suppress disease impacts
+  - To secure trade between farms, regions, and countries
+  - See the [STOC free](https://stocfree.eu/) and [SOUND control](https://sound-control.eu/) projects
+
+# Surveillance as part of disease eradication programmes
+
+## Example: surveillance of infection by BVDV in cattle
+
+- Bovine viral diarrhoea is a major disease of cattle
+- Caused by the Bovine Viral Diarrhoea Virus (**BVDV**)
+  - Family = *Flaviviridae*, genus = *Pestivirus*
+- In affected farms:
+  - Reproductive problems, calf deaths, etc.
+  - Consequences can be dramatic in naïve herds 
+  
+## Epidemiology BVDV infection
+
+:::: {.columns}
+:::{.column width="50%"}
+- 2 types of infected animals:
+  
+  - **Transiently infected** : Infectious for a few days/weeks and then immune
+  - **Persistently infected (PI)**  : Infected during pregnancy, lifelong shedding of the virus, virus recognised as self $\rightarrow$ no antibody response
+
+:::
+
+::: {.column width="50%"}
+![](figs/Peterhan2010fig4.png){width=500 fig-align="center"}
+Figure from [Peterhans et al. (2010)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2850149/).
+:::
+::::
+
+
+## Surveillance of infection by the BVDV
+
+- Imagine you manage cattle health in a region where the infection is endemic. How would you organise BVDV surveillance?
+    - What is the objective?
+    - Which type(s) of test?
+    - Which animals would you test?
+    - At what frequency ?
+
+## Eradication programmes in Scandinavia
+
+- See [Lindberg and Alenius, 1999](https://www.sciencedirect.com/science/article/pii/S0378113598002703) and [Hult and Lindberg, 2005](https://pubmed.ncbi.nlm.nih.gov/16213610/)
+- Programmes in Sweden, Denmark, Norway and Finland designed according the same principles and launched in 1993
+- Surveillance:
+  - Objective: Division of the herd population into infected/non-infected 
+  - Dairy herds: Antibody ELISA test on bulk tank milk
+  - Beef herds: Antibody ELISA test on pools of individual blood samples (*spot test*)
+  - Vaccination forbidden
+- Clearance of infection in infected herds
+- In Sweden:
+  - 1993: >50% of herds with high antibody levels
+  - 2004: 2% of herds with high antibody levels
+
+
+## The Swiss BVDV eradication programme
+
+- See [Presi et al., 2011](https://www.sciencedirect.com/science/article/pii/S0167587711000304) and [Schweizer et al., 2021](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2021.702730/full).
+- The eradication programme began in 2008
+- Surveillance programme to identify infected animals/herds
+- First 2 years: every bovine tested for antigen $\rightarrow$ positive animals culled
+- Next 4 years: newborn calves tested for the virus with PIs subsequently culled
+  - Prevalence of calves born PI dropped from 1.4 to < 0.02%
+- After this initial period: serological surveillance (bulk tank milk, spot test)
+  - Difficulty to reach eradication
+
+## The Irish eradication programme
+
+- See [Graham et al. 2014](https://bvajournals.onlinelibrary.wiley.com/doi/abs/10.1136/vr.101814) and [Graham et al., 2021](https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2021.674557/full)
+- Based on the Swiss programme
+- Voluntary for a year, then compulsory
+- Surveillance using tissue tag testing:
+  - Viral antigen or RNA is sampled when ear tags are applied to newborn calves.
+- Dams of PI calves tested
+- PIs culled
+- Positive herds not allowed to move animals off farms
+- Prevalences of PI calves / herds with $\geq$ 1 PI:
+  - 2013: 0.66% / 11.3%
+  - 2020: 0.03% / 0.55%
+
+## Surveillance in eradication programmes - summary
+
+- Motivations: 
+  - Advantages of being infection free: animal welfare, farm profitability, animal trade, prevention more satisfying than cure
+  - Initial investment in eradication will be paid back after the infection has been eradicated
+- At the start of the programmes, different surveillance strategies:
+  1. Classify herds as infected/non-infected. In infected herds, eliminate infection. Protect non-infected herds from infection.
+  2. Test all animals in the population or all newborn calves and cull the infected
+- Testing all the animals is costly; all programs eventually move to a 2-step strategy, first classifying herds and then culling PIs from infected herds
+
+# Surveillance to prove freedom from disease
+
+## Surveillance to prove freedom from infection/disease
+
+- Why attempt to prove the absence of an infection?
+  - Comply with regulations when necessary
+  - Reassure trading partners
+  - Focus on avoiding reintroduction, not on finding last cases
+  
+- How to prove that something is absent?
+
+:::{.fragment}
+![](figs/black_swans_popper.jpg){height=300 fig-align="center"}
+:::
+
+## Strategy to prove freedom from infection/disease
+
+- Proving the absence of an infection would require testing every susceptible animal with a perfect test $\rightarrow$ a practically impossible task.
+
+- Evaluation strategy:
+  - Collect surveillance data
+  - Assume a low disease prevalence (called the *design prevalence*)
+  - If at least 1 test is positive, then freedom from infection cannot be confirmed.
+  - If 0 test positive: 
+    - Compute the probability of having 0 test positive given $n$ animals tested if the infection were present at the design prevalence in your population
+
+## Freedom from infection as a statistical problem
+
+- Assume the disease is present at the *design prevalence* ($\pi_t$) 
+- Make hypotheses that can be tested from this design prevalence
+ $$H_o: \pi \geq \pi_t$$
+ $$H_A: \pi < \pi_t$$
+ - Construct confidence intervals, estimate probabilities of error from these hypotheses
+
+:::{.fragment}
+```{r table hypthesis testing freedom, echo = FALSE, message=FALSE}
+magick::image_read_pdf("./figs/tab_error_1.pdf")
+```
+:::
+
+## Complexity of disease epidemiology/surveillance systems
+
+- The epidemiology of infections and the structure of surveillance systems can be complex.
+
+::::{.columns}
+:::{.column width=60%}
+
+:::{.fragment}
+![](figs/surveillance_components.png){width=650}
+:::
+:::
+
+:::{.column width=40%}
+- Risk of infection or seropositivity varies across different farms and animals.
+- Imperfect tests
+:::
+::::
+
+## The scenario tree method to demonstrate freedom from infection/disease
+
+- Principle: Represent the surveillance system as a tree, with conditional probabilities assigned to each node.
+
+::::{.columns}
+:::{.column width=60%}
+:::{.fragment}
+![](figs/Cameron2007_fig2.png){width=550}
+:::
+:::
+
+:::{.column width=40%}
+- Estimate the surveillance sensitivity and the probability of infection.
+- Figure from [Cameron et al., 2007](https://www.sciencedirect.com/science/article/pii/S016758770600208X)
+:::
+::::
+
+# Syndromic surveillance for the early detection of emerging diseases
+
+## Emerging infectious diseases
+
+- [Definition of an emerging disease by the WOAH](https://www.woah.org/en/what-we-do/standards/codes-and-manuals/terrestrial-code-online-access/?id=169&L=1&htmfile=glossaire.htm#terme_maladie_emergente):
+  - a new occurrence in an animal of a disease, infection or infestation, causing a significant impact on animal or public health resulting from:
+    1. change of a known pathogenic agent or its spread to a new geographic area or species; or
+    2. previously unrecognised pathogenic agent or disease diagnosed for the first time.
+
+- Recent examples in Europe:
+  - Cattle: [BTV-8 in 2006-2007](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009405), [Schmallenberg virus in 2011](https://www.sciencedirect.com/science/article/pii/S0167587714001160), [Epizootic Haemorrhagic Disease in 2023](https://www.anses.fr/en/content/cases-epizootic-haemorrhagic-disease-france)...
+  - Birds: influenza
+  - Humans: SARS-CoV-2 in 2019, [mpox in 2024](https://www.who.int/news/item/14-08-2024-who-director-general-declares-mpox-outbreak-a-public-health-emergency-of-international-concern), ...
+
+
+## Distinctive features of surveillance for emerging diseases
+
+- There are many pathogens that could emerge, most of them unknown
+ - Think of SARS-CoV-2, Schmallenberg virus...
+- It is impossible to test for specific pathogens.
+
+## Syndromic surveillance for the early detection of emerging diseases
+
+- Definition from [Triple S project, 2011](https://www.sciencedirect.com/science/article/pii/S0140673611608349)
+
+:::{.fragment}
+*A real-time (or near real-time) collection, analysis, interpretation, and dissemination of health-related data to enable the early identification of the impact (or absence of impact) of potential human or veterinary public health threats that require effective public health action.*
+:::
+
+:::{.fragment}
+*Syndromic surveillance is based not on the laboratory-confirmed diagnosis of a disease but on non-specific health indicators including clinical signs, symptoms as well as proxy measures (e.g., absenteeism, drug sales, animal production collapse) that constitute a provisional diagnosis (or “syndrome”).*
+:::
+
+## Principles of syndromic surveillance
+
+- Steps:
+  - Gather data collected in near real-time, usually for purposes other than surveillance.
+  - Construct non-specific indicators (e.g., weekly mortality rate).
+  - Seek evidence of abnormal variations indicating a possible emergence.
+  - Investigate alarms to identify putative agents.
+
+## Evaluation of syndromic surveillance systems
+
+- Important measures:
+  - **Sensitivity:** When an emergence occurs, what is the probability of it being detected?
+  - **Timeliness:** Time between emergence and its detection?
+  - **Specificity:** Probability of an alarm when no disease emerges ($\rightarrow$ emergences are rare events: positive predictive values can be low)
+
+- Evaluation challenge: There is no gold standard since emerging pathogens are usually unknown.
+
+- Solution to design and evaluate a surveillance system: 
+  - Use past outbreaks.
+  - Use simulated outbreaks.
+  
+## Detection of emerging vector-borne diseases in cattle
+
+- Example from a research project.
+
+- **Objective:** Use routinely collected production and reproduction data in cattle for the early detection of the emergence of vector-borne infectious diseases.
+
+- **Data:**
+  - Milk recording: Monthly collection of milk yield from all the cows from a dairy herd. Around 60% of French dairy herds participated at the time of the project.
+  - Artificial insemination data: Most dairy calves are born from artificial insemination. Data on date of AI, national dam ID collected and gathered at the national level.
+
+- Design and validation of the system on data collected during the emergence of the Bluetongue Virus (**BTV**) in France in 2007
+
+## Milk yields from milk recording for syndromic surveillance (1)
+
+- From [Madouasse et al., 2013](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073726) and [Madouasse et al., 2014](https://www.sciencedirect.com/science/article/pii/S0167587713003929)
+
+- Milk yields from milk recording aggregated at the test-day level: dates when all the cows from a herd were recorded
+- Mean milk production per cow per test-day computed
+- Historical period (before emergence):
+  - Estimation of parameters of linear mixed models for the prediction of expected test-day milk yields
+- Periods of possible emergence:
+  - Prediction of expected milk yields from the models estimated at the previous step
+  - Differences between observed and predicted
+  - Detection of spatio-temporal clusters of observed milk yields lower than predicted
+
+## Milk yields from milk recording for syndromic surveillance (2)
+
+- Results:
+  - In the case of an emergence similar to the emergence of BTV
+  - Detection would have been possible ~9 weeks after emergence
+  - But, too many false alarms for it to be useful on its own
+
+:::{.fragment} 
+![](figs/lait_resultats.png)
+:::
+
+## Reproduction data for syndromic surveillance (1)
+
+- From [Marceau et al., 2014](https://www.sciencedirect.com/science/article/pii/S002203021400513X)
+- Construction of indicators based on the intervals between:
+  - consecutive artificial inseminations in the same cow, or,
+  - the last known date of artificial insemination and calving
+
+:::{.fragment}
+![](figs/repro_indicateurs.png){width=500 fig-align="center"}
+:::
+
+## Reproduction data for syndromic surveillance (2)
+
+- Indicators aggregated at the *département*-week level
+- Modelling of times series before the emergence
+- Prediction of indicator values during the emergence
+
+- Main result: BTV emergence led to a slight increase in short gestations (percentiles 1 to 25 of the distribution).
+
+:::{.fragment}
+![](figs/repro_resultats1.png)
+:::
+
+# Wrap-up: considerations when designing/evaluating a surveillance system
+
+## Aim of surveillance?
+
+- Control or eradicate a disease
+- Early detection of a known pathogen
+- Early detection of an unknown pathogen
+- Prove freedom from infection
+- Monitor incidence/prevalence
+
+## What are the criteria of interest?
+
+- Case detection $\rightarrow$ sensitivity
+- Early detection $\rightarrow$ timeliness
+
+- **False positives**: 
+  - Evaluated using positive predictive value
+  - Depend on surveillance specificity, frequency of testing, incidence/prevalence of the event to detect (emergence = rare event)
+  - Increase the cost of surveillance, because need to be retested
+
+
+## What data to collect?
+
+- Based on aims and cost of surveillance
+
+- Individual or pooled data
+- Detect ongoing infections (antigen, DNA, RNA)
+- Detect past infections (antibodies)
+- Detect non-specific signs of disease
+
+- Surveillance programmes can be complex:
+   - Include several components
+   - Have different stages of testing: e.g., screening followed by confirmatory testing
+
+# Thank you for your attention

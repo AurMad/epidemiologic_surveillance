@@ -1,0 +1,5 @@
+project:
+  title: "Epidemiologic surveillance"
+  type: website
+  output-dir: docs
+
