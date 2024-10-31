@@ -1,7 +1,8 @@
 ---
-title: "Epidemiologic surveillance"
+title: "Introduction to epidemiologic surveillance"
 author: "Aurélien Madouasse"
 date: "2024-10-31"
+institute: "Oniris VetAgroBio"
 format: 
   revealjs:
     incremental: true
@@ -10,6 +11,18 @@ format:
     logo: figs/logos_Oniris_Inrae.png
     theme: [simple, style.scss]
 ---
+
+## Link to the slides
+
+Link to the slides: <https://aurmad.github.io/epidemiologic_surveillance/>
+
+## Learning objectives
+
+- At the end of this session, you should be able to:
+  - Define surveillance
+  - List 3 different purposes of surveillance
+  - Define sensitivity, specificity and timeliness of surveillance
+  
 
 ## What is surveillance?
 
@@ -235,7 +248,7 @@ magick::image_read_pdf("./figs/tab_error_1.pdf")
 - Important measures:
   - **Sensitivity:** When an emergence occurs, what is the probability of it being detected?
   - **Timeliness:** Time between emergence and its detection?
-  - **Specificity:** Probability of an alarm when no disease emerges ($\rightarrow$ emergences are rare events: positive predictive values can be low)
+  - **Specificity:** Probability of no alarm when no disease emerges ($1 - Sp$ is the false positive rate) ($\rightarrow$ emergences are rare events: positive predictive values can be low)
 
 - Evaluation challenge: There is no gold standard since emerging pathogens are usually unknown.
 
@@ -302,9 +315,47 @@ magick::image_read_pdf("./figs/tab_error_1.pdf")
 ![](figs/repro_resultats1.png)
 :::
 
+# Further terms and concepts
+
+## Active / passive surveillance
+
+- **Active surveillance:** 
+  - Data collection initiated by the investigator
+  - Example: systematic of dairy herds for BVDV
+
+- **Passive surveillance:** 
+  - Surveillance data provided at the initiative of the observer.
+  - Example: A farmer reporting a case of abortion in their herd.
+
+::: aside
+See Hoinville et al., 2013. Proposed terms and concepts for describing and evaluating animal-health surveillance systems. Preventive Veterinary Medicine 112, 1–12. https://doi.org/10.1016/j.prevetmed.2013.06.006
+:::
+
+## Risk-based surveillance
+
+- Different definitions of risk in different contexts
+  - In general: probability of occurrence of an event
+  - In risk analysis: probability of occurrence x consequences
+- The notion of risk can be used in several ways in surveillance
+  - Risk-based prioritisation
+  - Risk-based sampling
+  - ...
+
+::: aside
+See Hoinville et al., 2013. Proposed terms and concepts for describing and evaluating animal-health surveillance systems. Preventive Veterinary Medicine 112, 1–12. https://doi.org/10.1016/j.prevetmed.2013.06.006
+:::
+
+## Participatory surveillance
+
+- Participatory surveillance:
+  - Data collected by the general population
+  - Information can be collected through the internet or by professionals involved in surveillance
+  - Example: people reporting observations on a dedicated website (e.g., [Influenzanet](https://onlinelibrary.wiley.com/doi/full/10.1111/1469-0691.12477))
+  - Example: [reporting of H5N1 Highly Pathogenic Influenza in low-income countries](https://link.springer.com/article/10.1007/s10393-014-0916-0).
+
 # Wrap-up: considerations when designing/evaluating a surveillance system
 
-## Aim of surveillance?
+## Purpose of surveillance?
 
 - Control or eradicate a disease
 - Early detection of a known pathogen
